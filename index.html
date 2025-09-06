@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>セミナー告知 - 2025年9月17日開催</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Hiragino Sans', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: #333;
+            margin-bottom: 40px;
+            padding: 40px 0;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            color: #6c757d;
+        }
+
+        .main-content {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+
+        .section {
+            padding: 40px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section h2::before {
+            content: '';
+            width: 4px;
+            height: 30px;
+            background: #3498db;
+            margin-right: 15px;
+        }
+
+        .event-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .detail-card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #e9ecef;
+            border-left: 4px solid #3498db;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .detail-card h3 {
+            color: #2c3e50;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .detail-card h3 .icon {
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+
+        .detail-card p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .map-container {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .map-container iframe {
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            max-width: 100%;
+            height: 400px;
+        }
+
+        .ticket-section {
+            text-align: center;
+            background: #ffffff;
+            color: #333;
+            padding: 50px 40px;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .ticket-btn {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 20px 40px;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .ticket-btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+        }
+
+        .footer {
+            text-align: center;
+            color: #6c757d;
+            padding: 30px 0;
+            background: white;
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .section {
+                padding: 25px;
+            }
+
+            .event-details {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .map-container iframe {
+                width: 100%;
+                height: 300px;
+            }
+
+            .ticket-section {
+                padding: 40px 25px;
+            }
+        }
+
+        .highlight {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🎯 「ゼロからのフリーランス講座」in 高知</h1>
+            <p>あなたのスキルアップをサポートする貴重な機会です</p>
+        </header>
+
+        <main class="main-content">
+            <section class="section">
+                <h2>📅 開催概要</h2>
+                <div class="event-details">
+                    <div class="detail-card">
+                        <h3><span class="icon">📅</span>開催日時</h3>
+                        <p><span class="highlight">2025年9月17日（水）</span><br>
+                        13:30〜 開始予定</p>
+                    </div>
+                    <div class="detail-card">
+                        <h3><span class="icon">📍</span>開催場所</h3>
+                        <p><span class="highlight">ちより街テラス</span><br>
+                        アクセス良好な立地でお待ちしております</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2>🗺️ 会場アクセス</h2>
+                <p>ちより街テラスへのアクセスマップです。公共交通機関をご利用ください。</p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662.4027533567019!2d133.55681978864058!3d33.558429278483764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354e19551442db6d%3A0x1debedddcc07a8c1!2z44Gh44KI44KK6KGX44OG44Op44K5!5e0!3m2!1sja!2sjp!4v1757141169309!5m2!1sja!2sjp" 
+                            width="600" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+        </main>
+
+        <section class="ticket-section">
+            <h2>🎫 参加お申し込み</h2>
+            <p>下記のリンクからお申し込みください。<br>
+            席数に限りがございますので、お早めにお申し込みをお願いいたします。</p>
+            <a href="https://freelance-gakkou-kouchi0917.peatix.com/" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="ticket-btn">
+                📝 今すぐ申し込む
+            </a>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2025 セミナー運営事務局. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
